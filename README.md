@@ -26,3 +26,15 @@ fpc FT8TW.lpr
 ```
 
 This project is intentionally lightweight and ready to be extended with real FT8 DSP/codec logic.
+
+
+## GUI
+
+Run Lazarus GUI entry point:
+
+```bash
+fpc FT8TW_GUI.lpr
+./FT8TW_GUI
+```
+
+The GUI supports callsign/locator/frequency editing, configuration save, and basic signal/protocol test logging.
