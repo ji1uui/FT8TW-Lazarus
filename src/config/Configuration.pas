@@ -8,7 +8,7 @@ unit Configuration;
 interface
 
 uses
-  Classes, SysUtils, IniFiles, DataTypes;
+  Classes, SysUtils, IniFiles, DataTypes, Constants;
 
 type
   { Configuration manager class }
